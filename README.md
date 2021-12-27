@@ -19,10 +19,31 @@ The data structure of RockSL (shown in Figure 1) contained several relational da
 
 ![image](https://user-images.githubusercontent.com/66400818/147445088-f581487e-c860-418e-bb37-fc73a0a52e05.png)
 
+## Spectral data description
+
+
+## Recommended citation
+Xie, B., Zhou, S., Wu, L., Mao, W., Wang, W., 2021. RockSL: an integrated rock spectral library for better global shared services(accepted), Big Earth Data, DOI: https://doi.org/10.1080/20964471.2021.2017111
+
 ## RockSL database management
+
 
 ## Data policy
 This work is mainly to unify the format and semantics of spectral data of each shared spectral library and tested data. If there exists the problem with  quality of shared data , please contact original developers or visit related website. Besides, if the RockSL is cited in your scientific research projects or papers, please pay attention to cite the relevant works of shared database creators (you can get in touch with me or go to the corresponding official website).
+**USGS**
+
+**JPL/JHU**
+The ECOSTRESS spectral library includes data from three other spectral libraries: Johns Hopkins University (JHU)、Jet Propulsion Laboratory (JPL) and United States Geological Survey (USGS - Reston). If you use data from the ECOSTRESS spectral library in a publication we ask that you reference the following articles: 
+* Meerdink, S. K., Hook, S. J., Roberts, D. A., & Abbott, E. A. (2019). The ECOSTRESS spectral library version 1.0. Remote Sensing of Environment, 230(111196), 1–8. 
+* Baldridge, A. M., S.J. Hook, C.I. Grove and G. Rivera, 2009.The ASTER Spectral Library Version 2.0. Remote Sensing of Environment, vol 113, pp. 711-715.
+
+**ASU**
+
+**PDS**
+
+**MISA**
+
+
 
 ## Disclaimer
 All data in this repository was collected/calculated/calibrated from multiple publicly available data sources that do not always agree. While we'll try our best to keep the information up to correct, we make no representations or warranties of any kind, express or implied, about the completeness, accuracy, reliability, with respect to the data. We do not bear any legal responsibility for any consequence caused by the usage of data provided. Reliance on the data for use of the data in commerce is strictly prohibited. 
