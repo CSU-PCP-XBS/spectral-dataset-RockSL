@@ -30,20 +30,29 @@ Xie, B., Zhou, S., Wu, L., Mao, W., Wang, W., 2021. RockSL: an integrated rock s
 
 ## Data policy
 This work is mainly to unify the format and semantics of spectral data of each shared spectral library and tested data. If there exists the problem with  quality of shared data , please contact original developers or visit related website. Besides, if the RockSL is cited in your scientific research projects or papers, please pay attention to cite the relevant works of shared database creators (you can get in touch with me or go to the corresponding official website).
+
 **USGS**
 
+
+
 **JPL/JHU**
+
 The ECOSTRESS spectral library includes data from three other spectral libraries: Johns Hopkins University (JHU)、Jet Propulsion Laboratory (JPL) and United States Geological Survey (USGS - Reston). If you use data from the ECOSTRESS spectral library in a publication we ask that you reference the following articles: 
 * Meerdink, S. K., Hook, S. J., Roberts, D. A., & Abbott, E. A. (2019). The ECOSTRESS spectral library version 1.0. Remote Sensing of Environment, 230(111196), 1–8. 
 * Baldridge, A. M., S.J. Hook, C.I. Grove and G. Rivera, 2009.The ASTER Spectral Library Version 2.0. Remote Sensing of Environment, vol 113, pp. 711-715.
 
 **ASU**
 
+Many people at ASU contributed their time and effort to make this library a high quality resource. Therefore, if data form this library are published as part of scientific research or other work, we request that the appropriate document [Christensen et al, 2000] be referenced. Because many of the library samples were obtained for specific research tasks at ASU, additional references to papers written by ASU personnel utilizing these mineral spectra are located on the References webpage and may contain information of interest to users of the library. If you have any questions about the library or references, please contact Josh Bandfield or Steve Ruff.
+
 **PDS**
+
+Data sets archived in the PDS are in the public domain. All PDS data sets in the PDS Geosciences Node Spectral Library may be downloaded by anyone for free.
 
 **MISA**
 
-
+If you need to cite data from this database in your thesis or other articles, please use the following description:
+Shanghai Institute of Organic Chemistry, Chinese Academy of Sciences. Chemistry database [DB/OL]. http://www.organchem.csdb.cn.[1978-2016]
 
 ## Disclaimer
 All data in this repository was collected/calculated/calibrated from multiple publicly available data sources that do not always agree. While we'll try our best to keep the information up to correct, we make no representations or warranties of any kind, express or implied, about the completeness, accuracy, reliability, with respect to the data. We do not bear any legal responsibility for any consequence caused by the usage of data provided. Reliance on the data for use of the data in commerce is strictly prohibited. 
