@@ -64,7 +64,9 @@ The reflection spectrum of rock/mineral is mainly affected by its chemical compo
 Xie, B., Zhou, S., Wu, L., Mao, W., Wang, W., 2021. RockSL: an integrated rock spectral library for better global shared services(accepted), Big Earth Data, DOI: https://doi.org/10.1080/20964471.2021.2017111
 
 ## RockSL database management
-
+RockSL database management is a software used to manage， analyse and visualize mineral spectrum data. This software can realize the import of shared spectral data and related data at home and abroad, quality control of spectrum data, pre-classification of spectrum data, data retrieval, spectral Data analysis and spcetral matching the unknown spectrum. This software can help users better realize the management of large amounts of spectral data and applications related to mineral identification. At present, we will upload the corresponding user documents (currently in Chinese, and the English documents will be updated later). At present, we have applied for software copyright for this system.
+![image](https://user-images.githubusercontent.com/66400818/147459071-edc94693-5f51-438a-be4d-aebc31fbeef7.png)
+The module for importing data  
 
 ## Data policy
 This work is mainly to unify the format and semantics of spectral data of each shared spectral library and tested data. If there exists the problem with  quality of shared data , please contact original developers or visit related website. Besides, if the RockSL is cited in your scientific research projects or papers, please pay attention to cite the relevant works of shared database creators (you can get in touch with me or go to the corresponding official website).
