@@ -12,15 +12,17 @@ an integrated open mineral spectral library from shared libraries (USGS,JHU,JPL,
 | PDS     | 0.3-26.0μm    | μm level    | ASCII  | https://speclib.rsl.wustl.edu/search.aspx  |
 | ASU     | 5.0-45μm    | 710-1000μm    | ASCII/HDF  |  https://speclib.asu.edu/  |
 | MISA    | 0.25-5.0μm    | /   | Image  |  http://www.organchem.csdb.cn/scdb/  |
-| CSU Lab     | 0.3-14μm    | μm level    | ASCII  | https://github.com/CSU-PCP-XBS/spectral-dataset-RockSL |
+| CSU Lab     | 0.3-14μm    | μm level    | ASCII/CSV  | https://github.com/CSU-PCP-XBS/spectral-dataset-RockSL |
 
 ## Database structure
 The data structure of RockSL (shown in Figure 1) contained several relational data tables mainly used to save reference spectral data with related parameters, attribute data, classification code of rocks and minerals, and the specific information of spectrometers. The relational table of rock/mineral code as the main relational table was designed to store sematic and classification contents for data consolidation from diverse regions, and to facilitate rapid retrieval. The relational table of mineral/rock code and mineral/rock type records the classification information. The table of mineral/rock attribute records the physical and chemical properties, while spectral data information records spectral data and related metadata. The table of instrument information records the spectrometer information. The numbers (i.e., 1 and m) represent the number of records in each table, indicating that one record in the table (e.g., code of mineral/rock type) corresponds to multiple records in another table (e.g., code of mineral/rock).
 
 ![image](https://user-images.githubusercontent.com/66400818/147445088-f581487e-c860-418e-bb37-fc73a0a52e05.png)
 
+## RockSL database management
 
-
+## Data policy
 This work is mainly to unify the format and semantics of spectral data of each shared spectral library and tested data. If there exists the problem with  quality of shared data , please contact original developers or visit related website. Besides, if the RockSL is cited in your scientific research projects or papers, please pay attention to cite the relevant works of shared database creators (you can get in touch with me or go to the corresponding official website).
+
 
 We will upload and collect more relevant open source and test spectrum data and update them later, and upload the SQL SERVER storage file (this data set is built based on SQL server).
