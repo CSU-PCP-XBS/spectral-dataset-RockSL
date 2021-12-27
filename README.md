@@ -1,5 +1,6 @@
 # spectral-dataset-RockSL
-[简书](http://www.baidu.com "悬停显示文字")
+[license](https://creativecommons.org/licenses/by/4.0/ "悬停显示文字")
+
 an integrated open mineral spectral library from shared libraries (USGS,JHU,JPL,ASU,MISA, etc.) and measurement spectra in our own laboratory. We hope that more researchers will join to improve the availability and practical value of RockSL for remote sensing community. 
 
 ## Data source
