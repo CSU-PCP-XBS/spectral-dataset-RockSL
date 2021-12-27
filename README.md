@@ -5,7 +5,7 @@ an integrated open mineral spectral library from shared libraries (USGS,JHU,JPL,
 
 ## Data source
 | Spectral Library     | Wavelength range    | Particle size    | Shared Format  | Data resource |
-| ---------- | :-----------:  | :-----------: | :-----------:  | :-----------: | :-----------: |
+| ---------- | :-----------:  | :-----------: | :-----------:  | :-----------: |
 | USGS      | 0.2-200μm    | μm level    | ASCII  |  https://www.usgs.gov/labs/spec-lab/capabilities/spectral-library  |
 | JPL     | 0.4-2.5μm    | <45μm，45-125μm,125-500μm| ASCII  | http://speclib.jpl.nasa.gov |
 | JHU     | 0.4-14μm; 2.08-25μm| μm level    | ASCII  | http://speclib.jpl.nasa.gov |
