@@ -20,43 +20,44 @@ The data structure of RockSL (shown in Figure 1) contained several relational da
 ![image](https://user-images.githubusercontent.com/66400818/147445088-f581487e-c860-418e-bb37-fc73a0a52e05.png)
 
 ## Spectral data description
-The reflection spectrum of rock/mineral is mainly affected by its chemical composition, mineral purity and crystal structure. In addition to intrinsic factors, spectral data is affected by many variation factors such as sample granularity, roughness, observation method and sample compositions, which were expressed as metadata of spectral data. Metadata as a central component in the quality and reliability of spectral data contains further information of the sampling environment and measurement conditions, which is important to support the explanation of scientific data and ensure long-term data usability and exchange. It was verified that there has less effort on providing a standard metadata model to facilitate spectral data interoperability. In order to improve the universality and accuracy of the metadata, we referred to the main documents from International Organization for Standardization (ISO) and Quality Assurance Framework for Earth Observation (QA4EO). 
-Group	Variable	Explanation	Metadata type
-Common basic information	Mineral/rock code	Code of mineral/rock based on classification scheme	categorical
-	Sample code	Code of each specimen	categorical
-	Chinese Name	Name of specimen in Chinese 	categorical
-	English Name	Name of specimen in English	categorical
-	Type code	Code of type of specimen (e.g., halides)	categorical
-	Locality	Spatial sampling position (longitude/latitude/altitude)	quantitative
-	Chemistry	Chemical composition	alphanumeric
-	Ideal Chemistry	Chemical formula	alphanumeric
-	Particle Size	Particle size of measured specimen	quantitative
-	Pictures	Image depicting the specimen/sampling environment	pictorial
-Signal properties	Spectral Coordinate	Spectral data	quantitative
-	Wavelength range	Wavelength range	quantitative
-	Wavelength interval	Wavelength interval	quantitative
-	Data type	Data type (Reflectance, Radiance…)	categorical
-Shared data details	Database Name	Name of shared database	categorical
-	All Information	Original information downloaded from libraries	alphanumeric
-	URL	URL link of target library	alphanumeric
-	Description	Descriptive Information of target library	alphanumeric
-Measurement information	Sampling time	Date and time of the sampling in UTC.	quantitative
-	Measurement type	directional-hemispherical, bidirectional, hemispherical-directional reflectance	categorical
-	Instrument/spectrometer	Specific instrument	categorical
-	Measurement Temperature 	Air temperature in degrees	quantitative
-	Measurement Pressure	Air pressure in hPa 	quantitative
-	Measured environment	Field or laboratory	categorical
-	Contributor	Name of contributor	alphanumeric
-	Measured distance	Distance of the sensor to the target	quantitative
-	Measured angle	Zenith angle between sensor and specimen	quantitative
-	White reference	White reference plane used	categorical
-	Number of averaged
-spectra	Number of spectra averaged internally by the instrument	quantitative
-File information	File Name	File name of the spectral file	alphanumeric
-	File format 	File format of the spectral file	alphanumeric
-	Image ID	Code of curve image through vectorization of extraction of digital coordinate	categorical
-Data evaluation	Data level	Data quality rating based on the parameter integrity (characterized degree)	categorical
-	Data feature	The type of spectral data based on a customized classifier	quantitative
+The reflection spectrum of rock/mineral is mainly affected by its chemical composition, mineral purity and crystal structure. In addition to intrinsic factors, spectral data is affected by many variation factors such as sample granularity, roughness, observation method and sample compositions, which were expressed as metadata of spectral data. Metadata as a central component in the quality and reliability of spectral data contains further information of the sampling environment and measurement conditions, which is important to support the explanation of scientific data and ensure long-term data usability and exchange. It was verified that there has less effort on providing a standard metadata model to facilitate spectral data interoperability. In order to improve the universality and accuracy of the metadata, we referred to the main documents from International Organization for Standardization (ISO) and Quality Assurance Framework for Earth Observation (QA4EO). The Metadata variables of data model in RockSL is shown below.
+| Variable    | Explanation   | 
+| ---------- | :-----------:  |
+ USGS      | 0.2-200μm    |
+| Mineral/rock code |	Code of mineral/rock based on classification scheme|
+| Sample code |	Code of each specimen|
+| Chinese Name |	Name of specimen in Chinese |
+| English Name	| Name of specimen in English|
+| Type code |	Code of type of specimen (e.g., halides)|
+| Locality |	Spatial sampling position (longitude/latitude/altitude)|
+| Chemistry |	Chemical composition|
+| Ideal Chemistry |	Chemical formula|
+| Particle Size |	Particle size of measured specimen|
+| Pictures |	Image depicting the specimen/sampling environment|
+| Spectral Coordinate |	Spectral data|
+| Wavelength range |	Wavelength range|
+| Wavelength interval |	Wavelength interval|
+| Data type |	Data type (Reflectance, Radiance…)|
+| Database Name |	Name of shared database|
+| All Information |	Original information downloaded from libraries|
+| URL |	URL link of target library|
+| Description |	Descriptive Information of target library|
+| Sampling time | Date and time of the sampling in UTC.|
+| Measurement type |	directional-hemispherical, bidirectional, hemispherical-directional reflectance|
+| Instrument/spectrometer |	Specific instrument|
+| Measurement Temperature  |	Air temperature in degrees|
+| Measurement Pressure |	Air pressure in hPa |
+| Measured environment |	Field or laboratory|
+| Contributor |	Name of contributor|
+| Measured distance |	Distance of the sensor to the target|
+| Measured angle |	Zenith angle between sensor and specimen|
+| White reference |	White reference plane used|
+| Number of averaged spectra |	Number of spectra averaged internally by the instrument|
+| File Name |	File name of the spectral file|
+| File format | 	File format of the spectral file|
+| Image ID |	Code of curve image through vectorization of extraction of digital coordinate|
+| Data level |	Data quality rating based on the parameter integrity (characterized degree)|
+| Data feature |	The type of spectral data based on a customized classifier|
 
 
 ## Recommended citation
@@ -69,6 +70,7 @@ Xie, B., Zhou, S., Wu, L., Mao, W., Wang, W., 2021. RockSL: an integrated rock s
 This work is mainly to unify the format and semantics of spectral data of each shared spectral library and tested data. If there exists the problem with  quality of shared data , please contact original developers or visit related website. Besides, if the RockSL is cited in your scientific research projects or papers, please pay attention to cite the relevant works of shared database creators (you can get in touch with me or go to the corresponding official website).
 
 **USGS**
+
 This data release provides the U.S. Geological Survey (USGS) Spectral Library Version 7 and all related documents. The library contains spectra measured with laboratory, field, and airborne spectrometers. The instruments used cover wavelengths from the ultraviolet to the far infrared (0.2 to 200 microns). Laboratory samples of specific minerals, plants, chemical compounds, and man-made materials were measured. Any use of trade, firm, or product names is for descriptive purposes only and does not imply endorsement by the U.S. Government.
 You should reference the following articles: 
 Kokaly, R.F., Clark, R.N., Swayze, G.A., Livo, K.E., Hoefen, T.M., Pearson, N.C., Wise, R.A., Benzel, W.M., Lowers, H.A., Driscoll, R.L., and Klein, A.J., 2017, USGS Spectral Library Version 7: U.S. Geological Survey Data Series 1035, 61 p., https://doi.org/10.3133/ds1035.
