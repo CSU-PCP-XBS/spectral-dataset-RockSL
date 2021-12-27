@@ -6,8 +6,9 @@ an integrated open mineral spectral library from shared libraries (USGS,JHU,JPL,
 ## Data source
 | Spectral Library     | Wavelength range    | Particle size    | Shared Format  | Spectra amount   | Data resource |
 | ---------- | :-----------:  | :-----------: | :-----------:  | :-----------: | :-----------: |
-| USGS      | Wavelength range    | Particle size    | Shared Format  | Spectra amount   | Data resource |
-| JHU/JPL     | Wavelength range    | Particle size    | Shared Format  | Spectra amount   | Data resource |
+| USGS      | 0.2-200μm    | Particle size    | Shared Format  | Spectra amount   | Data resource |
+| JPL     | 0.4-2.5μm    | Particle size    | Shared Format  | Spectra amount   | Data resource |
+| JHU     | 0.4-14μm; 2.08-25μm| Particle size    | Shared Format  | Spectra amount   | Data resource |
 | PDS     | Wavelength range    | Particle size    | Shared Format  | Spectra amount   | Data resource |
 | ASU     | Wavelength range    | Particle size    | Shared Format  | Spectra amount   | Data resource |
 | MISA    | Wavelength range    | Particle size    | Shared Format  | Spectra amount   | Data resource |
