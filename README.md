@@ -14,6 +14,10 @@ an integrated open mineral spectral library from shared libraries (USGS,JHU,JPL,
 | MISA    | 0.25-5.0μm    | /   | Image  |  http://www.organchem.csdb.cn/scdb/  |
 | CSU Lab     | 0.3-14μm    | μm level    | ASCII  | https://github.com/CSU-PCP-XBS/spectral-dataset-RockSL |
 
+## Database structure
+The data structure of RockSL (shown in Figure 1) contained several relational data tables mainly used to save reference spectral data with related parameters, attribute data, classification code of rocks and minerals, and the specific information of spectrometers. The relational table of rock/mineral code as the main relational table was designed to store sematic and classification contents for data consolidation from diverse regions, and to facilitate rapid retrieval. 
+![image](https://user-images.githubusercontent.com/66400818/147444869-7ea660b3-58d8-427a-9bfa-cee10456e1dd.png)
+
 
 This work is mainly to unify the format and semantics of spectral data of each shared spectral library and tested data. If there exists the problem with  quality of shared data , please contact original developers or visit related website. Besides, if the RockSL is cited in your scientific research projects or papers, please pay attention to cite the relevant works of shared database creators (you can get in touch with me or go to the corresponding official website).
 
