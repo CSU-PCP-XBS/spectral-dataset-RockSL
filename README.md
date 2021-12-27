@@ -24,5 +24,10 @@ The data structure of RockSL (shown in Figure 1) contained several relational da
 ## Data policy
 This work is mainly to unify the format and semantics of spectral data of each shared spectral library and tested data. If there exists the problem with  quality of shared data , please contact original developers or visit related website. Besides, if the RockSL is cited in your scientific research projects or papers, please pay attention to cite the relevant works of shared database creators (you can get in touch with me or go to the corresponding official website).
 
+## Disclaimer
+All data in this repository was collected/calculated/calibrated from multiple publicly available data sources that do not always agree. While we'll try our best to keep the information up to correct, we make no representations or warranties of any kind, express or implied, about the completeness, accuracy, reliability, with respect to the data. We do not bear any legal responsibility for any consequence caused by the usage of data provided. Reliance on the data for use of the data in commerce is strictly prohibited. 
 
-We will upload and collect more relevant open source and test spectrum data and update them later, and upload the SQL SERVER storage file (this data set is built based on SQL server).
+## Prospects
+1. We will upload and collect more relevant open source and test spectrum data and update them later, 
+2. We will upload the database management software of the RockSL (this dataset is built based on SQL server and would be distributed in SQLite).
+3. we will establish the website for mineral/rock spectral data interchange.
