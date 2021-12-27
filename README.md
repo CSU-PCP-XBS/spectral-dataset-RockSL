@@ -6,17 +6,12 @@ an integrated open mineral spectral library from shared libraries (USGS,JHU,JPL,
 ## Data source
 | Spectral Library     | Wavelength range    | Particle size    | Shared Format  | Spectra amount   | Data resource |
 | ---------- | :-----------:  | :-----------: | :-----------:  | :-----------: | :-----------: |
-| Spectral Library     | Wavelength range    | Particle size    | Shared Format  | Spectra amount   | Data resource |
-| ---------- | :-----------:  | :-----------: | :-----------:  | :-----------: | :-----------: |
-| Spectral Library     | Wavelength range    | Particle size    | Shared Format  | Spectra amount   | Data resource |
-| ---------- | :-----------:  | :-----------: | :-----------:  | :-----------: | :-----------: |
-| Spectral Library     | Wavelength range    | Particle size    | Shared Format  | Spectra amount   | Data resource |
-| ---------- | :-----------:  | :-----------: | :-----------:  | :-----------: | :-----------: |
-| Spectral Library     | Wavelength range    | Particle size    | Shared Format  | Spectra amount   | Data resource |
-| ---------- | :-----------:  | :-----------: | :-----------:  | :-----------: | :-----------: |
-| Spectral Library     | Wavelength range    | Particle size    | Shared Format  | Spectra amount   | Data resource |
-| ---------- | :-----------:  | :-----------: | :-----------:  | :-----------: | :-----------: |
-| Spectral Library     | Wavelength range    | Particle size    | Shared Format  | Spectra amount   | Data resource |
+| USGS      | Wavelength range    | Particle size    | Shared Format  | Spectra amount   | Data resource |
+| JHU/JPL     | Wavelength range    | Particle size    | Shared Format  | Spectra amount   | Data resource |
+| PDS     | Wavelength range    | Particle size    | Shared Format  | Spectra amount   | Data resource |
+| ASU     | Wavelength range    | Particle size    | Shared Format  | Spectra amount   | Data resource |
+| MISA    | Wavelength range    | Particle size    | Shared Format  | Spectra amount   | Data resource |
+| CSU Lab     | Wavelength range    | Particle size    | Shared Format  | Spectra amount   | Data resource |
 
 
 This work is mainly to unify the format and semantics of spectral data of each shared spectral library and tested data. If there exists the problem with  quality of shared data , please contact original developers or visit related website. Besides, if the RockSL is cited in your scientific research projects or papers, please pay attention to cite the relevant works of shared database creators (you can get in touch with me or go to the corresponding official website).
