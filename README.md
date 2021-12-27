@@ -20,6 +20,43 @@ The data structure of RockSL (shown in Figure 1) contained several relational da
 ![image](https://user-images.githubusercontent.com/66400818/147445088-f581487e-c860-418e-bb37-fc73a0a52e05.png)
 
 ## Spectral data description
+The reflection spectrum of rock/mineral is mainly affected by its chemical composition, mineral purity and crystal structure. In addition to intrinsic factors, spectral data is affected by many variation factors such as sample granularity, roughness, observation method and sample compositions, which were expressed as metadata of spectral data. Metadata as a central component in the quality and reliability of spectral data contains further information of the sampling environment and measurement conditions, which is important to support the explanation of scientific data and ensure long-term data usability and exchange. It was verified that there has less effort on providing a standard metadata model to facilitate spectral data interoperability. In order to improve the universality and accuracy of the metadata, we referred to the main documents from International Organization for Standardization (ISO) and Quality Assurance Framework for Earth Observation (QA4EO). 
+Group	Variable	Explanation	Metadata type
+Common basic information	Mineral/rock code	Code of mineral/rock based on classification scheme	categorical
+	Sample code	Code of each specimen	categorical
+	Chinese Name	Name of specimen in Chinese 	categorical
+	English Name	Name of specimen in English	categorical
+	Type code	Code of type of specimen (e.g., halides)	categorical
+	Locality	Spatial sampling position (longitude/latitude/altitude)	quantitative
+	Chemistry	Chemical composition	alphanumeric
+	Ideal Chemistry	Chemical formula	alphanumeric
+	Particle Size	Particle size of measured specimen	quantitative
+	Pictures	Image depicting the specimen/sampling environment	pictorial
+Signal properties	Spectral Coordinate	Spectral data	quantitative
+	Wavelength range	Wavelength range	quantitative
+	Wavelength interval	Wavelength interval	quantitative
+	Data type	Data type (Reflectance, Radiance…)	categorical
+Shared data details	Database Name	Name of shared database	categorical
+	All Information	Original information downloaded from libraries	alphanumeric
+	URL	URL link of target library	alphanumeric
+	Description	Descriptive Information of target library	alphanumeric
+Measurement information	Sampling time	Date and time of the sampling in UTC.	quantitative
+	Measurement type	directional-hemispherical, bidirectional, hemispherical-directional reflectance	categorical
+	Instrument/spectrometer	Specific instrument	categorical
+	Measurement Temperature 	Air temperature in degrees	quantitative
+	Measurement Pressure	Air pressure in hPa 	quantitative
+	Measured environment	Field or laboratory	categorical
+	Contributor	Name of contributor	alphanumeric
+	Measured distance	Distance of the sensor to the target	quantitative
+	Measured angle	Zenith angle between sensor and specimen	quantitative
+	White reference	White reference plane used	categorical
+	Number of averaged
+spectra	Number of spectra averaged internally by the instrument	quantitative
+File information	File Name	File name of the spectral file	alphanumeric
+	File format 	File format of the spectral file	alphanumeric
+	Image ID	Code of curve image through vectorization of extraction of digital coordinate	categorical
+Data evaluation	Data level	Data quality rating based on the parameter integrity (characterized degree)	categorical
+	Data feature	The type of spectral data based on a customized classifier	quantitative
 
 
 ## Recommended citation
