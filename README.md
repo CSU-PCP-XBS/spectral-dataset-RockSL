@@ -4,15 +4,15 @@
 an integrated open mineral spectral library from shared libraries (USGS,JHU,JPL,ASU,MISA, etc.) and measurement spectra in our own laboratory. We hope that more researchers will join to improve the availability and practical value of RockSL for remote sensing community. 
 
 ## Data source
-| Spectral Library     | Wavelength range    | Particle size    | Shared Format  | Spectra amount   | Data resource |
+| Spectral Library     | Wavelength range    | Particle size    | Shared Format  | Data resource |
 | ---------- | :-----------:  | :-----------: | :-----------:  | :-----------: | :-----------: |
-| USGS      | 0.2-200μm    | Particle size    | Shared Format  | Spectra amount   | Data resource |
-| JPL     | 0.4-2.5μm    | Particle size    | Shared Format  | Spectra amount   | Data resource |
-| JHU     | 0.4-14μm; 2.08-25μm| Particle size    | Shared Format  | Spectra amount   | Data resource |
-| PDS     | Wavelength range    | Particle size    | Shared Format  | Spectra amount   | Data resource |
-| ASU     | Wavelength range    | Particle size    | Shared Format  | Spectra amount   | Data resource |
-| MISA    | Wavelength range    | Particle size    | Shared Format  | Spectra amount   | Data resource |
-| CSU Lab     | Wavelength range    | Particle size    | Shared Format  | Spectra amount   | Data resource |
+| USGS      | 0.2-200μm    | μm level    | ASCII  |  https://www.usgs.gov/labs/spec-lab/capabilities/spectral-library  |
+| JPL     | 0.4-2.5μm    | <45μm，45-125μm,125-500μm| ASCII  | http://speclib.jpl.nasa.gov |
+| JHU     | 0.4-14μm; 2.08-25μm| μm level    | ASCII  | http://speclib.jpl.nasa.gov |
+| PDS     | 0.3-26.0μm    | μm level    | ASCII  | https://speclib.rsl.wustl.edu/search.aspx  |
+| ASU     | 5.0-45μm    | 710-1000μm    | ASCII/HDF  |  https://speclib.asu.edu/  |
+| MISA    | 0.25-5.0μm    | /   | Image  |  http://www.organchem.csdb.cn/scdb/  |
+| CSU Lab     | 0.3-14μm    | μm level    | ASCII  | https://github.com/CSU-PCP-XBS/spectral-dataset-RockSL |
 
 
 This work is mainly to unify the format and semantics of spectral data of each shared spectral library and tested data. If there exists the problem with  quality of shared data , please contact original developers or visit related website. Besides, if the RockSL is cited in your scientific research projects or papers, please pay attention to cite the relevant works of shared database creators (you can get in touch with me or go to the corresponding official website).
