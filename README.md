@@ -90,7 +90,7 @@ Many people at ASU contributed their time and effort to make this library a high
 
 **PDS**
 
-Data sets archived in the PDS are in the public domain. All PDS data sets in the PDS Geosciences Node Spectral Library may be downloaded by anyone for free.
+Data sets archived in the PDS are in the public domain. All PDS data sets in the PDS Geosciences Node Spectral Library may be downloaded by anyone for free.PDS data sets are classified TSPA (Technology and Software Publicly Available) by the U.S. Department of Commerce, Bureau of Export Administration, and may be exported outside the United States as public open literature. When PDS data sets are used in published literature or other applications, they should be cited appropriately (see below). You can visit the website to obtain DOI https://pds-geosciences.wustl.edu/dataserv/doi.htm
 
 **MISA**
 
