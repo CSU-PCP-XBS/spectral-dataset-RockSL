@@ -23,7 +23,6 @@ The data structure of RockSL (shown in Figure 1) contained several relational da
 The reflection spectrum of rock/mineral is mainly affected by its chemical composition, mineral purity and crystal structure. In addition to intrinsic factors, spectral data is affected by many variation factors such as sample granularity, roughness, observation method and sample compositions, which were expressed as metadata of spectral data. Metadata as a central component in the quality and reliability of spectral data contains further information of the sampling environment and measurement conditions, which is important to support the explanation of scientific data and ensure long-term data usability and exchange. It was verified that there has less effort on providing a standard metadata model to facilitate spectral data interoperability. In order to improve the universality and accuracy of the metadata, we referred to the main documents from International Organization for Standardization (ISO) and Quality Assurance Framework for Earth Observation (QA4EO). The Metadata variables of data model in RockSL is shown below.
 | Variable    | Explanation   | 
 | ---------- | :-----------:  |
- USGS      | 0.2-200μm    |
 | Mineral/rock code |	Code of mineral/rock based on classification scheme|
 | Sample code |	Code of each specimen|
 | Chinese Name |	Name of specimen in Chinese |
