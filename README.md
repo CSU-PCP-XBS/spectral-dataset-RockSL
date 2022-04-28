@@ -85,7 +85,7 @@ The ECOSTRESS spectral library includes data from three other spectral libraries
 
 **ASU**
 
-Many people at ASU contributed their time and effort to make this library a high quality resource. Therefore, if data form this library are published as part of scientific research or other work, we request that the appropriate document [Christensen et al, 2000] be referenced. Because many of the library samples were obtained for specific research tasks at ASU, additional references to papers written by ASU personnel utilizing these mineral spectra are located on the References webpage and may contain information of interest to users of the library. If you have any questions about the library or references, please contact Josh Bandfield or Steve Ruff.
+Many people at ASU contributed their time and effort to make this library a high quality resource. Therefore, if data from this library are published as part of scientific research or other work, we request that the appropriate document [Christensen et al, 2000] be referenced. Because many of the library samples were obtained for specific research tasks at ASU, additional references to papers written by ASU personnel utilizing these mineral spectra are located on the References webpage and may contain information of interest to users of the library. If you have any questions about the library or references, please contact Josh Bandfield or Steve Ruff.
 
 **PDS**
 
